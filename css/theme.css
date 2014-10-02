@@ -1,0 +1,70 @@
+h1 {
+	font-family: 'Abril Fatface',  cursive;
+	font-size: 5em;
+	color: #fff;
+}
+
+.lead {
+	font-family: 'Playfair Display', serif;
+	font-size: 4em;
+	color: #fff;
+}
+
+#amp {
+	font-size: 12em;
+	float: right;
+	display: block;
+	position: relative;
+}
+
+#bio {
+	float: left;
+	display: block;
+	position: relative;
+}
+
+#likes {
+	display: inline;
+	position: relative;
+}
+
+body {
+	background-color: #000;
+}
+
+a {
+	color: #178bfb;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+
+a:hover {
+	color: #bedefe;
+	text-decoration: none;
+}
+
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+	
+	h1 {
+		font-family: 'Abril Fatface',  cursive;
+		font-size: 3em;
+		color: #fff;
+	}
+	
+	.lead {
+		font-family: 'Playfair Display', serif;
+		font-size: 2em;
+		color: #fff;
+	}
+	
+	.container {
+	  width: auto;
+	  max-width: 320px;
+	}
+}
+
