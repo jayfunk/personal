@@ -21,11 +21,13 @@ h1 {
 	float: left;
 	display: block;
 	position: relative;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #fff;
 }
 
 #likes {
-	display: inline;
-	position: relative;
+	font-size: .75em;
+	text-align: center;
 }
 
 body {
