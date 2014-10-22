@@ -18,16 +18,14 @@ h1 {
 }
 
 #bio {
-	float: left;
-	display: block;
-	position: relative;
 	margin-bottom: 20px;
 	border-bottom: 1px solid #fff;
+    padding-left: 2em;
 }
 
 #likes {
 	font-size: .75em;
-	text-align: center;
+    text-align: center;
 }
 
 body {
